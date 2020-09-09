@@ -1,13 +1,13 @@
 import React from "react";
 
-type DefaultButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
-export type ButtonProps = React.PropsWithChildren<{
-  onClick: DefaultButtonProps["onClick"];
-}> &
-  DefaultButtonProps;
+export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 export function Button({ type = "button", children, ...rest }: ButtonProps) {
   return (
-    <button type={type} {...rest}>
+    <button
+      type={type}
+      className="bg-blue-500 text-white font-bold py-2 px-4 rounded"
+      {...rest}
+    >
       {children}
     </button>
   );
