@@ -1,3 +1,5 @@
 {
-	"typescript.tsdk": "node_modules\\typescript\\lib"
+  "css.validate": false,
+  "stylelint.validate": ["css"],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

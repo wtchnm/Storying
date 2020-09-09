@@ -12,6 +12,9 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-is": "16.13.1",
+    "stylelint": "13.7.0",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "20.0.0",
     "tailwindcss": "1.8.6",
     "typescript": "4.0.2",
     "webpack": "4.44.1"
