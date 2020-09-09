@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["src", "stories"]
+}
