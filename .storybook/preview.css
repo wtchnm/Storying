@@ -1,0 +1,7 @@
+html {
+  @apply font-sans;
+}
+
+button {
+  font-family: inherit;
+}

@@ -7,13 +7,14 @@
     "moduleResolution": "Node",
     "noEmit": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ES6"
   },
   "include": [
-    "tailwind.config.js",
-    "postcss.config.js",
     "global.d.ts",
+    "postcss.config.js",
+    "rollup.config.js",
     "src",
-    "stories"
+    "stories",
+    "tailwind.config.js"
   ]
 }
