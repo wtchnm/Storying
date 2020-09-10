@@ -22,6 +22,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "no-undef": "off",
+
     "react/button-has-type": "off",
     "react/jsx-props-no-spreading": [
       "error",
