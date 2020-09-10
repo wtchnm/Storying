@@ -9,5 +9,11 @@
     "strict": true,
     "target": "ESNext"
   },
-  "include": ["global.d.ts", "src", "stories"]
+  "include": [
+    "tailwind.config.js",
+    "postcss.config.js",
+    "global.d.ts",
+    "src",
+    "stories"
+  ]
 }

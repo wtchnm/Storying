@@ -1,6 +1,6 @@
-import { Meta, Story } from "@storybook/react";
+import type { Meta } from "@storybook/react";
 import React from "react";
-import { Button, ButtonProps } from "../src/components/Button";
+import { Button, ButtonProperties } from "../src/components/Button";
 
 export default {
   title: "Button",
@@ -8,6 +8,6 @@ export default {
   argTypes: { onClick: { action: "clicked" } },
 } as Meta;
 
-export const Primary: Story<ButtonProps> = ({ onClick }) => {
+export function Primary({ onClick }: ButtonProperties) {
   return <Button onClick={onClick}>Primary</Button>;
-};
+}
